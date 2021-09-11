@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+
+
+.item-carroussel{
+    background-color: #F6F3EF;
+    list-style-type: none;
+   
+    border-radius: 5px;
+    box-shadow:3px 5px 2px #0000003d;
+
+}
+li{
+    list-style-type: none;
+}
+.imagem-carroussel{
+    width: 80%;
+    
+}
+.descricao-produto{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Baskervville', serif;
+}
+.preco-carroussel{
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #bc4c2a7a;
+}
+/* btn comprar */
+.btn-comprar-carroussel{
+   
+    border-radius: 5px;
+    font-family: 'Baskervville', serif;
+    background-color: #bc4c2a;
+    color: #ffffff;
+    width: 80%;
+    border: none;
+    height: 40px;
+    margin-bottom: 5px;
+    margin-top: 4px;
+
+}
+.btn-comprar-carroussel:hover{
+    background-color: #bc4c2aab;
+}
+/* btn auxiliar */
+
+.btn-auxiliar-carroussel{
+       
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: 'Baskervville', serif;
+    background-color: #757575;
+    color: #ffffff;
+    width: 80%;
+    border: none;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-top: 4px;
+}
+.btn-auxiliar-carroussel:hover{
+    background-color: #75757586;
+    ;
+
+}
