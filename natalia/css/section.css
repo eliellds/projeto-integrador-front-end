@@ -29,10 +29,11 @@ img {
 
     padding: 0 15px;
     text-transform: uppercase;
+
+    transition: 0.3s;
 }
 
 .custom-section-item button:hover {
     background-color: #BC4C2A;
     color: #fff;
-    transition: 0.3s;
 } 

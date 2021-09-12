@@ -4,46 +4,49 @@
     box-sizing: border-box;
 }
 
+.container-cards {
+    padding: 0;
+}
+
 .lista-cards {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: auto;
+    justify-content: space-around;
     padding: 0;
     list-style: none;
 }
 
-.cards {
-    display: flex;
-    flex-direction: column;
-    height: 410px;
-    width: 200px;
+.lista-cards li {
+    height: 100%;
     background-color: #F6F3EF;
     padding: 0;
     border-radius: 5px;
     box-shadow: #0000003f 0 3px 7px 2px;
-    margin: 20px 10px;
     transition: 0.3s;
+    margin-bottom: 15px;
+    min-width: 190px;
+    max-width: 290px;
 }
 
-.cards:hover {
+.lista-cards li:hover {
     box-shadow: #00000062 0 2px 4px 2px;
 }
 
-.cards .caixa-imagem {
+.caixa-imagem {
     display: block;
     justify-content: center;
     height: 200px;
 }
 
-.caixa-imagem .imagem-produto::before {
+.imagem-produto::before {
     content: "";
-    position: absolute;
+    display: inline-block;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;
-    width: 200px;
+    width: 100%;
     border-radius: 5px 5px 0 0;
 }
 
@@ -56,39 +59,42 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
-    height: 250px;
+    height: 230px;
 }
 
-.corpo-card .descricao {
+.descricao {
     color: #000;
     text-decoration: none;
     text-align: center;
     font-family: Baskervville;
     font-weight: bold;
     font-size: 18px;
-    margin-top: 10px;
 }
 
-.cards .pagamento {
+.descricao:hover {
+    color: #000;
+}
+
+.pagamento {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.corpo-card .preco {
+.preco {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.corpo-card .preco-de {
+.preco-de {
     font-size: 20px;
     text-decoration: line-through;
     color: #BC4C2A82;
 }
 
-.corpo-card .preco-por {
+.preco-por {
     font-size: 24px;
     color: #BC4C2A;
 }
