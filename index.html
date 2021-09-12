@@ -13,10 +13,57 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
     <link href="./eliel/carousel-cards/css-cards/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="./jose/carrousselbanner/css/banner.css">
     <title>Velho Luxo</title>
 </head>
 
 <body>
+      <!-- Banner container -->
+      <div class="container-banner">
+
+        <!-- imagens do baner/// -->
+            <!--imagem 1 -->
+        <div class="banner fade-pers">
+        
+        <img src="./jose/carrousselbanner/images/fundo-abstrato-elegante-134599122 (1).png" class="img-banner" >
+        <div class="text">imagem 1</div>
+        </div>
+        <!-- fim imagem 1 -->
+        <!--imagem 2 -->
+        <div class="banner fade-pers">
+        
+        <img src="./jose/carrousselbanner/images/banner1.jpg" class="img-banner">
+        <div class="text">imagem 2</div>
+        </div>
+        <!-- fim imagem 2 -->
+        <!-- imagem 3 -->
+        <div class="banner fade-pers">
+       
+        <img src="./jose/carrousselbanner/images/antiquário_223191943.jpg" class="img-banner">
+        <div class="text">imagem 3</div>
+        </div>
+        <!-- fim imagem 3 -->
+
+        <!-- Botão de anterior -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <!-- Fim -->
+
+
+        <!-- Botão de proximo -->
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <!-- Fim -->
+
+    </div>
+    <br>
+    
+    <!--Circulos embaixo da imagem  -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
 
     <h2>Promoções</h2>
 
@@ -235,6 +282,7 @@
         </ul>
 
     </div>
+    <script src="./jose/carrousselbanner/app/banner.js"></script>
 
 </body>
 

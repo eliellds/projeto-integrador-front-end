@@ -75,19 +75,19 @@
 }
 
 /* animação de um slide para o outro */
-.fade {
-  -webkit-animation-name: fade;
+.fade-pers {
+  -webkit-animation-name: fade-pers;
   -webkit-animation-duration: 1.5s;
-  animation-name: fade;
+  animation-name: fade-pers;
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
+@-webkit-keyframes fade-pers {
   from {opacity: .4}
   to {opacity: 1}
 }
 
-@keyframes fade {
+@keyframes fade-pers {
   from {opacity: .4}
   to {opacity: 1}
 }
