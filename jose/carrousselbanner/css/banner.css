@@ -1,19 +1,19 @@
 * {box-sizing:border-box}
 
-/* Slideshow container */
+/* banner container */
 .container-banner {
   max-width: 1200px;
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
+/* Esconde as imagens por padrão*/
 .banner{
   display: none;
   
 }
 
-/* Next & previous buttons */
+/*Botão de anterior e de proximo e  */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -28,23 +28,24 @@
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
+/* tamanho da imagem do banner  */
 .img-banner{
     height: 200px;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
-/* Position the "next button" to the right */
+/*Posição do botão "next" para a direita */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/*cores dos botões on houver (next and prev) */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
+/* texto do banner (pode ser removido se quiser) */
 .text {
   color: #BC4C2A;
   font-size: 15px;
@@ -55,16 +56,9 @@
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
 
-/* The dots/bullets/indicators */
+
+/* bolinhas indicadoras do slide */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -80,7 +74,7 @@
   background-color: #717171;
 }
 
-/* Fading animation */
+/* animação de um slide para o outro */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
