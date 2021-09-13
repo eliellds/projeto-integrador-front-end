@@ -3,6 +3,17 @@ img {
     width: 100%;
 }
 
+h2 {
+    color: #BC4C2A;
+    font-family: 'Baskervville', serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+    text-shadow: 2px 2px 5px #cacaca;
+}
+
+
 .custom-section{
     align-items: center;
     background-color: #F6F3EF;
@@ -18,18 +29,11 @@ img {
     margin: 10px 0;
 }
 
-.custom-section-item p{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
 .custom-section-item button {
     background-color: #fff;
     border: 2px solid #BC4C2A;
-
     padding: 0 15px;
     text-transform: uppercase;
-
     transition: 0.3s;
 }
 
@@ -39,11 +43,15 @@ img {
 } 
 
 @media screen and (max-width: 768px) {
-    .dois, .tres {
+    .dois, .tres, .seis,.sete {
         padding:10px 0;
     }
     .um { order: 1;}
     .dois {order: 2;}
     .tres{order: 4;}
     .quatro{order:3;}
+    .cinco{ order: 5;}
+    .seis{order: 6; }
+    .sete{order:8;}
+    .oito{order: 7;}
 }
