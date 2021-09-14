@@ -26,6 +26,15 @@ p {
     padding: 0 30px;
 }
 
+.recuperar {
+    color: #252525;
+}
+
+.recuperar:hover{
+    color: #252525;
+    font-weight: bold;
+}
+
 .custom-container {
     background-color: #F6F3EF;
 }
