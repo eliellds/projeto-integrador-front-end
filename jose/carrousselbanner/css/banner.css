@@ -4,7 +4,9 @@
 .container-banner {
   max-width: 1200px;
   position: relative;
+ 
   margin: auto;
+  margin-top: 5px;
 }
 
 /* Esconde as imagens por padrão*/
@@ -30,7 +32,8 @@
 }
 /* tamanho da imagem do banner  */
 .img-banner{
-    height: 200px;
+   object-fit: cover;
+   height: 250px;
     width: 100%;
     margin-bottom: 5px;
 }
