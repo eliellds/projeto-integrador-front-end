@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="./css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/carrinho.css">
+
     <link rel="stylesheet" href="./natalia/css/section.css">
     <link rel="stylesheet" href="./flavio/footer/css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,10 +17,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Buenard:wght@400;700&display=swap" rel="stylesheet">
     <link href="./eliel/carousel-cards/css-cards/styles.css" rel="stylesheet">
-    <link href="./eliel/form-cadastro/css-cadastro/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="./jose/carrousselbanner/css/banner.css">
     <link rel="stylesheet" href="./isabeli/CSS/Header.css">
-    <title>Cadastro - Velhor Luxo</title>
+    <link rel="stylesheet" href="./eliel/compra-concluida/css/styles.css">
+    <link rel="stylesheet" href="./eliel/form-cadastro/css-cadastro/styles.css">
+    <title>Velho Luxo</title>
 </head>
 
 <body>
@@ -28,14 +31,12 @@
             <div class="row">
                 <div class="hamburguer d-block d-sm-none col-2 align-content-end">
                     <a href="">
-                        <img class="menu-hamburguer"
-                            src="./isabeli/Images/Menu-de-Tres-Linhas.png">
+                        <img class="menu-hamburguer" src="./isabeli/Images/Menu-de-Tres-Linhas.png">
                     </a>
                 </div>
                 <div class="titulo col-lg-3 col-md-9 col-sm-8 col-5 justify-content-center">
                     <a href="./index.html" class="logo-marca" title="Velho Luxo">
-                    <img class="logo" alt="Velho Luxo"
-                        src="./isabeli/Images/Logo-Velho-Luxo.png">
+                        <img class="logo" alt="Velho Luxo" src="./isabeli/Images/Logo-Velho-Luxo.png">
                     </a>
                 </div>
                 <form class="form-pesquisa col-lg-6 d-lg-block d-none">
@@ -46,8 +47,7 @@
                             </div>
                             <div class="pesquisa-btn mx-0 col-1">
                                 <button class="button-submit" type="submit">
-                                    <img class="lupa"
-                                        src="./isabeli/Images/lupa.png">
+                                    <img class="lupa" src="./isabeli/Images/lupa.png">
                                 </button>
                             </div>
                         </div>
@@ -55,8 +55,7 @@
                 </form>
                 <div class="login col-sm-2 col-3"> <a href="./login.html">Login</a></div>
                 <a href="./carrinho.html" class="button-sacola col-md-1 col-sm-2 col-2">
-                    <img class="sacola"
-                        src="./isabeli/Images/sacola.png">
+                    <img class="sacola" src="./isabeli/Images/sacola.png">
                 </a>
                 <form class="form-pesquisa col-lg-6 d-lg-none d-block">
                     <div class="container">
@@ -66,8 +65,7 @@
                             </div>
                             <div class="pesquisa-btn mx-0 col-1">
                                 <button class="button-submit" type="submit">
-                                    <img class="lupa"
-                                        src="./isabeli/Images/lupa.png">
+                                    <img class="lupa" src="./isabeli/Images/lupa.png">
                                 </button>
                             </div>
                         </div>
@@ -89,81 +87,71 @@
         </div>
     </header>
 
-    <h1>Novo Cadastro</h1>
+    <!-- Inicio compra concluida -->
+    <h1>OBRIGADO!</h1>
 
-    <!-- Inicio container cadastro -->
-    <section class="container-fluid container-form px-sm-5 py-3">
+    <p class="msg-compra">
+        Seu pedido foi <em>concluído com sucesso</em> e os dados da compra foram enviados para seu e-mail.
+    </p>
 
-        <form action="./index.html" class="custom-form-box mx-3 mx-sm-1 mx-lg-4 px-5 px-sm-1 px-lg-4">
+    <div class="container-fluid container-principal">
 
-            <div class="row forms-block justify-content-center">
+        <h2 class="numero-pedido col-12">NÚMERO DO PEDIDO:<b>&nbsp;12345678</b></h2>
 
-                <div class="row custom-form">
+        <ul class="container lista-produtos">
 
-                    <div class="nome col-12 col-md-6">
-                        <label for="nome" class="form-label">Nome</label>
-                        <input type="text" id="nome" class="form-input col-12" placeholder="Ex.: Francisca">
-                    </div>
+            <li class="row bloco-produto item-1">
 
-                    <div class="sobrenome col-12 col-md-6">
-                        <label for="sobrenome" class="form-label">Sobrenome</label>
-                        <input type="text" id="sobrenome" class="form-input col-12" placeholder="Ex.: dos Santos">
-                    </div>
+                <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Descrição:</div>
+                <div class="atributos atributo-descricao col-12 col-sm-9">Penteadeira (1918) Madeira</div>
 
-                </div>
+                <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Valor:</div>
+                <div class="atributos atributo-valor col-12 col-sm-9">R$1999,00</div>
 
-                <div class="row custom-form">
+                <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Quantidade:</div>
+                <div class="atributos atributo-qtd col-12 col-sm-9">01</div>
+            </li>
 
-                    <div class="cpf col-12 col-sm-6 col-md-3">
-                        <label for="cpf" class="form-label">CPF</label>
-                        <input type="text" id="cpf" class="form-input col-12" placeholder="000.000.000-00">
-                    </div>
+            <li class="row bloco-produto item-2">
 
-                    <div class="telefone col-12 col-sm-6 col-md-3">
-                        <label for="telefone" class="form-label">Telefone</label>
-                        <input type="text" id="telefone" class="form-input col-12" placeholder="(00) 00000-0000">
-                    </div>
+                <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Descrição:</div>
+                <div class="atributos atributo-descricao col-12 col-sm-9">Chás (1908)</div>
 
-                    <div class="email col-12 col-md-6">
-                        <label for="email" class="form-label">E-mail</label>
-                        <input type="text" id="email" class="form-input col-12" placeholder="exemplo@exemplo.com">
-                    </div>
+                <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Valor:</div>
+                <div class="atributos atributo-valor col-12 col-sm-9">R$99,99</div>
 
-                </div>
+                <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Quantidade:</div>
+                <div class="atributos atributo-qtd col-12 col-sm-9">01</div>
+            </li>
 
-                <div class="row custom-form">
+            <li class="row bloco-produto item-3">
 
-                    <div class="senha col-12 col-sm-6 col-md-3">
-                        <label for="senha" class="form-label">Senha</label>
-                        <input type="text" id="senha" class="form-input col-12" placeholder="Defina uma senha">
-                    </div>
+                <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Descrição:</div>
+                <div class="atributos atributo-descricao col-12 col-sm-9">Penteadeira (1908) Madeira</div>
 
-                    <div class="confirmarSenha col-12 col-sm-6 col-md-3">
-                        <label for="confirmarSenha" class="form-label">Confirmar senha</label>
-                        <input type="text" id="confirmarSenha" class="form-input col-12" placeholder="Confirme a senha">
-                    </div>
+                <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Valor:</div>
+                <div class="atributos atributo-valor col-12 col-sm-9">R$1999,00</div>
 
-                </div>
+                <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Quantidade:</div>
+                <div class="atributos atributo-qtd col-12 col-sm-9">01</div>
+            </li>
 
-            </div>
+            <div class="valor-total">Total:&nbsp;<b>R$4097,99</b></div>
 
-            <div class="row justify-content-between">
+        </ul>
 
-                <a href="./login.html" class="btn-retorno">VOLTAR</a>
+        <div class="texto-prazo">Prazo estimado para entrega: <b>01/01/2022</b></div>
 
-                <input type="submit" class="btn-confirmacao" value="CADASTRAR">
+    </div>
+    <!-- Fim compra concluida -->
 
-            </div>
-
-
-        </form>
-
-    </section>
-    <!-- Fim container cadastro -->
+    <div class="voltar-inicio">
+        <a href="./index.html" class="btn-retorno">Página inicial</a>
+    </div>
 
     <footer>
-        <div class="container-fluid">
-            <div class="row justify-content-between first-footer px-0">
+        <div class="container-fluid ">
+            <div class="row justify-content-between first-footer  px-0">
                 <div class="col-5 col-xs-6 col-sm-2 col-md-3 contato px-2">
                     <h3>
                         contato
@@ -177,38 +165,38 @@
                 <div class=" col-7 col-xs-6 col-sm-6 col-md-3 produtos px-2">
                     <h3>
                         produtos
-                    </h3>        
+                    </h3>
                     <ul>
                         <li><a href="">Comprar</a></li>
-                        <li><a href="">Vender</a</li>
+                        <li><a href="">Vender</a></li>
                         <li><a href="">Promoções</a></li>
-                    </ul>           
+                    </ul>
                 </div>
                 <div class=" col-5 col-xs-6 col-sm-6 col-md-3 sobre px-2">
                     <h3>
                         sobre
-                    </h3>      
+                    </h3>
                     <ul>
                         <li><a href="">Visão</a></li>
                         <li><a href="">Missão</a></li>
                         <li><a href="">História</a></li>
-                    </ul>             
+                    </ul>
                 </div>
                 <div class="col-7 col-xs-6 col-sm-6 col-md-3 redes px-2">
                     <h3>
                         redes sociais
-                    </h3>              
+                    </h3>
                     <ul>
                         <li class="instagram"><a href="">Instagram</a></li>
                         <li class="facebook"><a href="">Facebook</a></li>
-                        <li  class="pinterest"><a href="">Pinterest</a></li>
-                    </ul>    
+                        <li class="pinterest"><a href="">Pinterest</a></li>
+                    </ul>
                 </div>
 
                 <div class="col-md-12 last-footer px-0">
                     criado por GRUPO 5 RD
                 </div>
-              
+
             </div>
         </div>
     </footer>
