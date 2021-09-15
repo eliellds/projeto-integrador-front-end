@@ -2,12 +2,7 @@
     box-sizing: border-box;
 }
 
-img {
-    display: block;
-    width: 100%;
-}
-
-h1, h2, label {
+h1, h2 {
     font-family: 'Baskervville', serif;
 }
 
@@ -20,6 +15,24 @@ h1, h2 {
     text-shadow: 2px 2px 5px #cacaca;
 }
 
+.cabecalho-pedido li {
+    list-style-type: none;
+}
+
+.cabecalho-pedido-item {
+    font-family: 'Baskervville', serif;
+    text-transform: uppercase;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-bottom: 2px solid #BC4C2A ;
+}
+.numero-pedido a{
+    color: #252525;
+}
+.numero-pedido a:hover{
+    color: #252525;
+    font-weight: bold;
+}
 .nav-pills .nav-link{
     color: #252525;
     font-family: 'Baskervville', serif;
@@ -47,51 +60,6 @@ h1, h2 {
     background-color: #F6F3EF;
 }
 
-.container-form {
-    background-color: #F6F3EF;
-    padding-bottom: 30px !important;
-    margin-bottom: 30px;
-}
-
-.form-label {
-    font-family: Baskervville;
-    font-weight: 600;
-}
-
-.forms-block {
-    margin-bottom: 50px;
-}
-
-.form-input {
-    margin-bottom: 10px;
-    border: none;
-    border-bottom: solid 2px #BC4C2A;
-    color: #000;
-    height: 35px;
-    padding: 0 10px;
-}
-
-.btn-confirmacao {
-    font-family: Baskervville;
-    text-align: center;
-    background-color: #BC4C2A;
-    padding: 10px;
-    width: 150px;
-    font-size: 20px;
-    text-decoration: none;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    box-shadow: #00000036 0 2px 4px 2px;
-    transition: 0.3s;
-}
-
-.btn-confirmacao:hover {
-    color: #fff;
-    background-color: #d47c61;
-    box-shadow: #00000062 0 2px 4px 2px;
-}
-
 .btn-retorno {
     font-family: Baskervville;
     text-align: center;
@@ -112,15 +80,6 @@ h1, h2 {
     box-shadow: #00000062 0 2px 4px 2px;
 }
 
-@media (max-width: 420px) {
-
-    .custom-form-box {
-        padding: 0 10px !important;
-        margin: 0 !important;
-    }
-
-}
-
 @media (max-width: 450px) {
 
     .btn-retorno {
@@ -128,12 +87,5 @@ h1, h2 {
         width: 120px;
         font-size: 16px;
     }
-
-    .btn-confirmacao {
-        padding: 8px;
-        width: 120px;
-        font-size: 16px;
-    }
-    
 
 }
