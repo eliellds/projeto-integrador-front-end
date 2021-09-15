@@ -7,7 +7,7 @@ img {
     width: 100%;
 }
 
-h1, h2, p, button, p, small, label {
+h1, h2, label, p, button {
     font-family: 'Baskervville', serif;
 }
 
@@ -20,10 +20,16 @@ h1, h2 {
     text-shadow: 2px 2px 5px #cacaca;
 }
 
-p { 
-    font-size: 1.12rem;
-    text-align: center;
-    padding: 0 30px;
+.nav-pills .nav-link{
+    color: #252525;
+}
+.nav-pills .nav-link:hover{
+    font-weight: bold;
+    color: #252525;
+}
+
+.nav-pills .nav-link.active{
+    background-color:  #BC4C2A;
 }
 
 .recuperar {
@@ -33,11 +39,6 @@ p {
 .recuperar:hover{
     color: #252525;
     font-weight: bold;
-}
-
-.foto-perfil{
-    max-width: 150px;
-    border-radius: 50%;
 }
 
 .custom-container {
@@ -69,10 +70,10 @@ p {
 }
 
 .btn-confirmacao {
+    height: 50px;
     font-family: Baskervville;
     text-align: center;
     background-color: #BC4C2A;
-    padding: 10px;
     width: 150px;
     font-size: 20px;
     text-decoration: none;
@@ -90,10 +91,11 @@ p {
 }
 
 .btn-retorno {
+    border: none;
+    height: 50px;
     font-family: Baskervville;
     text-align: center;
     background-color: #a3a3a3;
-    padding: 10px;
     width: 150px;
     font-size: 20px;
     text-decoration: none;
