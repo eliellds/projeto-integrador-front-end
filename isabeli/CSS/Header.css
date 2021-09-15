@@ -13,6 +13,7 @@
 
 .logo {
     height: 60px;
+    width: auto;
     margin: 10px 0 0 10px;
 }
 
@@ -32,13 +33,16 @@
 .login a {
     color: black;
     text-decoration: none;
+    padding: 5px;
 }
 .sacola {
-    height: 25px;  
+    height: 30px;
+    width: auto;
 }
 
 .button-sacola{
     align-self: flex-end;
+    padding: 5px;
 }
 
 .pesquisa {
@@ -53,6 +57,7 @@
 }
 
 .button-submit {
+    display: flex;
     border: none;
     background-color: white;
     width: 100%;
@@ -60,7 +65,8 @@
     margin: 0;
     border-bottom: #BC4C2A solid 2px;
     margin-top: 30px;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .pesquisa-btn {
@@ -68,7 +74,8 @@
 }
 
 .lupa {
-    height: 15px;
+    height: 17px;
+    width: auto;
 }
 
 .hamburguer {
@@ -78,6 +85,7 @@
 }
 .menu-hamburguer {
     height: 30px;
+    width: auto;
     align-self: flex-end;
     display: flex;
 }
@@ -107,7 +115,7 @@
     text-decoration: none;
     border-bottom:2px solid #F6F3EF;
     font-family: 'Baskervville', serif;
-    font-size: 22px;
+    font-size: 20px;
     width: 100px;
     padding: 10px 100px;
     justify-content: center;
