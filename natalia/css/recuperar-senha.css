@@ -2,12 +2,7 @@
     box-sizing: border-box;
 }
 
-img {
-    display: block;
-    width: 100%;
-}
-
-h1, h2, p, button, p, small, label {
+h1, h2, p, small, label {
     font-family: 'Baskervville', serif;
 }
 
