@@ -20,6 +20,9 @@ p {
     text-align: center;
     padding: 0 30px;
 }
+.custom-form a{
+    color: #252525;
+}
 
 .recuperar {
     color: #252525;
