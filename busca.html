@@ -8,10 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="../../../eliel/carousel-cards/css-cards/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../footer/css/footer.css">
-    <link rel="stylesheet" href="./natalia/css/section.css">
     <link rel="stylesheet" href="./flavio/footer/css/footer.css">
-    <link rel="stylesheet" href="../css/busca.css">
+    <link rel="stylesheet" href="./natalia/css/section.css">
+    <link rel="stylesheet" href="./flavio/busca/css/busca.css">
+    <link rel="stylesheet" href="./isabeli/CSS/Header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
@@ -22,12 +22,78 @@
 
 <body>
 
+   <!-- header -->
+   <header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="hamburguer d-block d-sm-none col-2 align-content-end">
+                <a href="#">
+                    <img class="menu-hamburguer"
+                        src="./isabeli/Images/Menu-de-Tres-Linhas.png">
+                </a>
+            </div>
+            <div class="titulo col-lg-3 col-md-9 col-sm-8 col-5 justify-content-center">
+                <a href="./index.html" class="logo-marca" title="Velho Luxo">
+                <img class="logo d-sm-block d-none" alt="Velho Luxo"
+                    src="./isabeli/Images/velho-luxo.png">
+                <img class="logo-2 d-block d-sm-none" alt="Velho Luxo"
+                    src="./isabeli/Images/vl.png">
+                </a>
+            </div>
+            <form class="form-pesquisa col-lg-6 d-lg-block d-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="pesquisa-btn mx-0 col-11">
+                            <input type="text" class="pesquisa" placeholder="O que deseja colecionar?">
+                        </div>
+                        <div class="pesquisa-btn mx-0 col-1">
+                            <button class="button-submit" type="submit">
+                                <img class="lupa"
+                                    src="./isabeli/Images/lupa.png">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="login col-sm-2 col-3"> <a href="./login.html">Login</a></div>
+            <a href="./carrinho.html" class="button-sacola col-md-1 col-sm-2 col-2">
+                <img class="sacola"
+                    src="./isabeli/Images/sacola.png">
+            </a>
+            <form class="container form-pesquisa col-10 d-lg-none d-block">
+                <div class="row">
+                    <div class="pesquisa-btn mx-0 col-11">
+                        <input type="text" class="pesquisa" placeholder="O que deseja colecionar?">
+                    </div>
+                    <div class="pesquisa-btn mx-0 col-1">
+                        <button class="button-submit" type="submit">
+                            <img class="lupa"
+                                src="./isabeli/Images/lupa.png">
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <nav id="menu">
+                    <ul class="align-content-center justify-content-center px-5 d-none d-sm-flex">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./categorias.html">Catálogo</a></li>
+                        <li><a href="#">Promoções</a></li>
+                        <li><a href="./contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
 
     <!-- inicio da section -->
     <section>
         <div class="container container-cards">
             <div class="row resultado">
-                    <div class="col-6 col-xs-8 col-sm-7 col-md-8 col-lg-6 info-resultado">
+                    <div class="col-6 col-xs-8 col-sm-7 col-md-8 col-lg-6 info-resultado mt-2">
                         <h2>Resultados para <span>"FACAS"</span></h2>
                     </div>
                     <div class="col-6 col-xs-4 col-sm-5 col-md-4 col-lg-6 rel no-wrap text-end">
@@ -133,16 +199,16 @@
 
     <!-- inicio footer -->
     <footer>
-        <div class="container-fluid">
-            <div class="row justify-content-between first-footer px-0">
+        <div class="container-fluid ">
+            <div class="row justify-content-between first-footer  px-0">
                 <div class="col-5 col-xs-6 col-sm-2 col-md-3 contato px-2">
                     <h3>
                         contato
                     </h3>
                     <ul>
-                        <li><a href="">Dúvidas</a></li>
-                        <li><a href="">Informações</a></li>
-                        <li><a href="">Sugestões</a></li>
+                        <li><a href="./contato.html">Dúvidas</a></li>
+                        <li><a href="./contato.html">Informações</a></li>
+                        <li><a href="./contato.html">Sugestões</a></li>
                     </ul>
                 </div>
                 <div class=" col-7 col-xs-6 col-sm-6 col-md-3 produtos px-2">
@@ -150,8 +216,8 @@
                         produtos
                     </h3>
                     <ul>
-                        <li><a href="">Comprar</a></li>
-                        <li><a href="">Vender</a</li>
+                        <li><a href="./categorias.html">Comprar</a></li>
+                        <li><a href="./contato.html">Vender</a></li>
                         <li><a href="">Promoções</a></li>
                     </ul>
                 </div>
@@ -160,9 +226,9 @@
                         sobre
                     </h3>
                     <ul>
-                        <li><a href="">Visão</a></li>
-                        <li><a href="">Missão</a></li>
-                        <li><a href="">História</a></li>
+                        <li><a href="./sobre.html">Visão</a></li>
+                        <li><a href="./sobre.html">Missão</a></li>
+                        <li><a href="./sobre.html">História</a></li>
                     </ul>
                 </div>
                 <div class="col-7 col-xs-6 col-sm-6 col-md-3 redes px-2">
