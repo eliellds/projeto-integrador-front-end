@@ -85,6 +85,14 @@
         width: 120px;
         font-size: 16px;
     }
-    
 
+    .btn-finalizar {
+        width: 180px !important;
+    }
+
+    .retorno-resumo {
+        padding: 8px 0 !important;
+        width: 90px;
+    }
+    
 }

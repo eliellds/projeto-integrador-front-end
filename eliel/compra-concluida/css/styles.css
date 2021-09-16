@@ -29,14 +29,14 @@
     align-self: flex-end;
 }
 
-.lista-produtos {
+.container-principal ul {
     list-style: none;
     padding: 30px;
     border: solid 2px #BC4C2A;
 }
 
-.bloco-produto {
-    padding: 5px 5px 5px 100px;
+.container-principal ul li {
+    padding: 5px 5px 5px 0;
     padding-left: 80px;
     margin-bottom: 10px;
     border: 1px solid #C99668;
@@ -93,6 +93,32 @@
     padding: 0;
 }
 
+.linha-geral {
+    width: 100%;
+    margin: 0;
+}
+
+.pagamento-lista, .endereco-lista {
+    padding: 5px !important;
+}
+
+.numero-cartao, .descricao-endereco b {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.nome-endereco {
+    font-weight: 600;
+}
+
+.referencia-endereco {
+    color: #00000086;
+}
+
+.btn-finalizar {
+    width: 250px !important;
+}
+
 @media (max-width: 610px) {
 
     .bloco-produto::before {
@@ -102,7 +128,7 @@
         margin-top: 4px;
     }
 
-    .bloco-produto {
+    .container-principal ul li {
         padding: 5px 5px 5px 50px;
     }
 
