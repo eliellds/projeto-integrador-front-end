@@ -40,13 +40,11 @@ h1, h2 {
 }
 
 .textarea {
-    margin-bottom: 10px;
     border: none;
     border-bottom: solid 2px #BC4C2A;
-    padding: 0 10px;
 }
 
-.btn-confirmacao {
+.btn-enviar {
     font-family: Baskervville;
     text-align: center;
     background-color: #BC4C2A;
@@ -61,13 +59,13 @@ h1, h2 {
     transition: 0.3s;
 }
 
-.btn-confirmacao:hover {
+.btn-enviar:hover {
     color: #fff;
     background-color: #d47c61;
     box-shadow: #00000062 0 2px 4px 2px;
 }
 
-.btn-retorno {
+.btn-voltar {
     font-family: Baskervville;
     text-align: center;
     background-color: #a3a3a3;
@@ -81,7 +79,7 @@ h1, h2 {
     transition: 0.3s;
 }
 
-.btn-retorno:hover {
+.btn-voltar:hover {
     color: #fff;
     background-color: #bebebe;
     box-shadow: #00000062 0 2px 4px 2px;
