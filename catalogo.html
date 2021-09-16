@@ -22,25 +22,24 @@
     <link rel="stylesheet" href="./jose/carrousselbanner/css/banner.css">
     <link rel="stylesheet" href="./css/catalogo.css">
     <link rel="stylesheet" href="./isabeli/CSS/Header.css">
- 
+
     <title>Velho Luxo</title>
 </head>
 
 <body>
-   
-    <header class="mb-2">
+
+    <header>
         <div class="container-fluid">
             <div class="row">
                 <div class="hamburguer d-block d-sm-none col-2 align-content-end">
-                    <a href="">
-                        <img class="menu-hamburguer"
-                            src="./isabeli/Images/Menu-de-Tres-Linhas.png">
+                    <a href="#">
+                        <img class="menu-hamburguer" src="./isabeli/Images/Menu-de-Tres-Linhas.png">
                     </a>
                 </div>
                 <div class="titulo col-lg-3 col-md-9 col-sm-8 col-5 justify-content-center">
                     <a href="./index.html" class="logo-marca" title="Velho Luxo">
-                    <img class="logo" alt="Velho Luxo"
-                        src="./isabeli/Images/Logo-Velho-Luxo.png">
+                        <img class="logo d-sm-block d-none" alt="Velho Luxo" src="./isabeli/Images/velho-luxo.png">
+                        <img class="logo-2 d-block d-sm-none" alt="Velho Luxo" src="./isabeli/Images/vl.png">
                     </a>
                 </div>
                 <form class="form-pesquisa col-lg-6 d-lg-block d-none">
@@ -51,8 +50,7 @@
                             </div>
                             <div class="pesquisa-btn mx-0 col-1">
                                 <button class="button-submit" type="submit">
-                                    <img class="lupa"
-                                        src="./isabeli/Images/lupa.png">
+                                    <img class="lupa" src="./isabeli/Images/lupa.png">
                                 </button>
                             </div>
                         </div>
@@ -60,21 +58,17 @@
                 </form>
                 <div class="login col-sm-2 col-3"> <a href="./login.html">Login</a></div>
                 <a href="./carrinho.html" class="button-sacola col-md-1 col-sm-2 col-2">
-                    <img class="sacola"
-                        src="./isabeli/Images/sacola.png">
+                    <img class="sacola" src="./isabeli/Images/sacola.png">
                 </a>
-                <form class="form-pesquisa col-lg-6 d-lg-none d-block">
-                    <div class="container">
-                        <div class="row">
-                            <div class="pesquisa-btn mx-0 col-11">
-                                <input type="text" class="pesquisa">
-                            </div>
-                            <div class="pesquisa-btn mx-0 col-1">
-                                <button class="button-submit" type="submit">
-                                    <img class="lupa"
-                                        src="./isabeli/Images/lupa.png">
-                                </button>
-                            </div>
+                <form class="container form-pesquisa col-10 d-lg-none d-block">
+                    <div class="row">
+                        <div class="pesquisa-btn mx-0 col-11">
+                            <input type="text" class="pesquisa" placeholder="O que deseja colecionar?">
+                        </div>
+                        <div class="pesquisa-btn mx-0 col-1">
+                            <button class="button-submit" type="submit">
+                                <img class="lupa" src="./isabeli/Images/lupa.png">
+                            </button>
                         </div>
                     </div>
                 </form>
@@ -86,7 +80,7 @@
                             <li><a href="./index.html">Home</a></li>
                             <li><a href="./categorias.html">Catálogo</a></li>
                             <li><a href="#">Promoções</a></li>
-                            <li><a href="#">Contato</a></li>
+                            <li><a href="./contato.html">Contato</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -96,12 +90,12 @@
 
 
     <div class="container mt-2">
-        
+
         <div class="row justify-content-center mb-3 p-0 mx-0">
             <h1 class="categoria_nome mb-2 col-12">Cozinha</h1> <!-- nome da categoria -->
-            <div class="col-9 linha-divisoria "></div> 
+            <div class="col-9 linha-divisoria "></div>
         </div>
-         
+
         <form action="" class="row justify-content-md-end justify-content-center mb-3">
             <label for="filtro" class="col-md-2 p-0 m-0  col-8">Ordenar por: </label>
             <select name="filtro" class="col-md-2 col-8" id="filtro">
@@ -109,17 +103,17 @@
                 <option value="maior-preco">Maior Valor</option>
                 <option value="menor-preco">Menor Valor</option>
                 <option value="Ofertas">Maior desconto</option>
-                
-                
+
+
             </select>
         </form>
 
     </div>
 
-   
-   
-   
-    
+
+
+
+
 
     <!-- Inicio lista cards produtos catalogo-->
     <div class="container container-cards my-4">
@@ -128,7 +122,7 @@
 
             <!-- Inicio card protudo -->
             <li class="col-11 col-sm-8 col-md-5 col-lg-2 mb-4">
-                
+
                 <!-- Imagem card -->
                 <div class="caixa-imagem">
                     <a href="" class="imagem-produto card-1"></a>
@@ -144,7 +138,7 @@
                         </div>
 
                         <!-- Botao comprar -->
-                        <a href="" class="btn-comprar">COMPRAR</a>
+                        <a href="./carrinho.html" class="btn-comprar">COMPRAR</a>
 
                     </div>
 
@@ -164,7 +158,7 @@
                             <div class="preco-de">R$999,59</div>
                             <div class="preco-por">R$ 850,59</div>
                         </div>
-                        <a href="" class="btn-comprar">COMPRAR</a>
+                        <a href="./carrinho.html" class="btn-comprar">COMPRAR</a>
                     </div>
                 </div>
             </li>
@@ -180,7 +174,7 @@
                             <div class="preco-de">R$999,59</div>
                             <div class="preco-por">R$ 850,59</div>
                         </div>
-                        <a href="" class="btn-comprar">COMPRAR</a>
+                        <a href="./carrinho.html" class="btn-comprar">COMPRAR</a>
                     </div>
                 </div>
             </li>
@@ -196,7 +190,7 @@
                             <div class="preco-de">R$999,59</div>
                             <div class="preco-por">R$ 850,59</div>
                         </div>
-                        <a href="" class="btn-comprar">COMPRAR</a>
+                        <a href="./carrinho.html" class="btn-comprar">COMPRAR</a>
                     </div>
                 </div>
             </li>
@@ -212,15 +206,15 @@
                             <div class="preco-de">R$999,59</div>
                             <div class="preco-por">R$ 850,59</div>
                         </div>
-                        <a href="" class="btn-comprar">COMPRAR</a>
+                        <a href="./carrinho.html" class="btn-comprar">COMPRAR</a>
                     </div>
                 </div>
             </li>
 
         </ul>
 
-    </div>   
-    
+    </div>
+
     <div class="container container-cards">
 
         <ul class="row lista-cards catalogo tamanho mb-5">
@@ -236,7 +230,7 @@
                             <div class="preco-de">R$999,59</div>
                             <div class="preco-por">R$ 850,59</div>
                         </div>
-                        <a href="" class="btn-comprar">COMPRAR</a>
+                        <a href="./carrinho.html" class="btn-comprar">COMPRAR</a>
                     </div>
                 </div>
             </li>
@@ -252,7 +246,7 @@
                             <div class="preco-de">R$999,59</div>
                             <div class="preco-por">R$ 850,59</div>
                         </div>
-                        <a href="" class="btn-comprar">COMPRAR</a>
+                        <a href="./carrinho.html" class="btn-comprar">COMPRAR</a>
                     </div>
                 </div>
             </li>
@@ -268,7 +262,7 @@
                             <div class="preco-de">R$999,59</div>
                             <div class="preco-por">R$ 850,59</div>
                         </div>
-                        <a href="" class="btn-comprar">COMPRAR</a>
+                        <a href="./carrinho.html" class="btn-comprar">COMPRAR</a>
                     </div>
                 </div>
             </li>
@@ -284,7 +278,7 @@
                             <div class="preco-de">R$999,59</div>
                             <div class="preco-por">R$ 850,59</div>
                         </div>
-                        <a href="" class="btn-comprar">COMPRAR</a>
+                        <a href="./carrinho.html" class="btn-comprar">COMPRAR</a>
                     </div>
                 </div>
             </li>
@@ -300,7 +294,7 @@
                             <div class="preco-de">R$999,59</div>
                             <div class="preco-por">R$ 850,59</div>
                         </div>
-                        <a href="" class="btn-comprar">COMPRAR</a>
+                        <a href="./carrinho.html" class="btn-comprar">COMPRAR</a>
                     </div>
                 </div>
             </li>
@@ -313,10 +307,10 @@
     <div class="row justify-content-center tamanho">
         <a href="" class="btn-ver-mais col-6 mb-3">VER MAIS</a>
     </div>
-    
+
     <div class="row justify-content-center tamanho mt-3 mb-4">
-       
-        <div class="col-9 linha-divisoria-apoio justify-self-center "></div> 
+
+        <div class="col-9 linha-divisoria-apoio justify-self-center "></div>
     </div>
 
 
@@ -328,7 +322,7 @@
 
 
 
-<!-- footer-inicio -->
+    <!-- footer-inicio -->
     <footer>
         <div class="container-fluid ">
             <div class="row justify-content-between first-footer  px-0">
@@ -337,9 +331,9 @@
                         contato
                     </h3>
                     <ul>
-                        <li><a href="">Dúvidas</a></li>
-                        <li><a href="">Informações</a></li>
-                        <li><a href="">Sugestões</a></li>
+                        <li><a href="./contato.html">Dúvidas</a></li>
+                        <li><a href="./contato.html">Informações</a></li>
+                        <li><a href="./contato.html">Sugestões</a></li>
                     </ul>
                 </div>
                 <div class=" col-7 col-xs-6 col-sm-6 col-md-3 produtos px-2">
@@ -347,8 +341,8 @@
                         produtos
                     </h3>
                     <ul>
-                        <li><a href="">Comprar</a></li>
-                        <li><a href="">Vender</a></li>
+                        <li><a href="./categorias.html">Comprar</a></li>
+                        <li><a href="./contato.html">Vender</a></li>
                         <li><a href="">Promoções</a></li>
                     </ul>
                 </div>
@@ -357,9 +351,9 @@
                         sobre
                     </h3>
                     <ul>
-                        <li><a href="">Visão</a></li>
-                        <li><a href="">Missão</a></li>
-                        <li><a href="">História</a></li>
+                        <li><a href="./sobre.html">Visão</a></li>
+                        <li><a href="./sobre.html">Missão</a></li>
+                        <li><a href="./sobre.html">História</a></li>
                     </ul>
                 </div>
                 <div class="col-7 col-xs-6 col-sm-6 col-md-3 redes px-2">
@@ -380,9 +374,9 @@
             </div>
         </div>
     </footer>
-    
 
-   
+
+
 
 </body>
 
