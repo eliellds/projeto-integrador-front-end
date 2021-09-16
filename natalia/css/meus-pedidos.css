@@ -89,3 +89,10 @@ h1, h2 {
     }
 
 }
+
+@media (max-width: 450px) {
+    .data {
+       display: none;
+    }
+
+}
