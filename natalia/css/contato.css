@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-h1, h2, label, p, button {
+h1, h2 {
     font-family: 'Baskervville', serif;
 }
 
@@ -13,33 +13,6 @@ h1, h2 {
     text-transform: uppercase;
     margin: 20px;
     text-shadow: 2px 2px 5px #cacaca;
-}
-
-.nav-pills .nav-link{
-    color: #252525;
-    font-family: 'Baskervville', serif;
-}
-
-.nav-pills .nav-link:hover{
-    font-weight: bold;
-    color: #252525;
-}
-
-.nav-pills .nav-link.active{
-    background-color:  #BC4C2A;
-}
-
-.recuperar {
-    color: #252525;
-}
-
-.recuperar:hover{
-    color: #252525;
-    font-weight: bold;
-}
-
-.custom-container {
-    background-color: #F6F3EF;
 }
 
 .container-form {
@@ -66,11 +39,18 @@ h1, h2 {
     padding: 0 10px;
 }
 
+.textarea {
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: solid 2px #BC4C2A;
+    padding: 0 10px;
+}
+
 .btn-confirmacao {
-    height: 50px;
     font-family: Baskervville;
     text-align: center;
     background-color: #BC4C2A;
+    padding: 10px;
     width: 150px;
     font-size: 20px;
     text-decoration: none;
@@ -88,11 +68,10 @@ h1, h2 {
 }
 
 .btn-retorno {
-    border: none;
-    height: 50px;
     font-family: Baskervville;
     text-align: center;
     background-color: #a3a3a3;
+    padding: 10px;
     width: 150px;
     font-size: 20px;
     text-decoration: none;
