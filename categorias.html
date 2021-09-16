@@ -23,15 +23,17 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="hamburguer d-block d-sm-none col-2 align-content-end">
-                    <a href="">
+                    <a href="#">
                         <img class="menu-hamburguer"
                             src="./isabeli/Images/Menu-de-Tres-Linhas.png">
                     </a>
                 </div>
                 <div class="titulo col-lg-3 col-md-9 col-sm-8 col-5 justify-content-center">
                     <a href="./index.html" class="logo-marca" title="Velho Luxo">
-                    <img class="logo" alt="Velho Luxo"
-                        src="./isabeli/Images/Logo-Velho-Luxo.png">
+                    <img class="logo d-sm-block d-none" alt="Velho Luxo"
+                        src="./isabeli/Images/velho-luxo.png">
+                    <img class="logo-2 d-block d-sm-none" alt="Velho Luxo"
+                        src="./isabeli/Images/vl.png">
                     </a>
                 </div>
                 <form class="form-pesquisa col-lg-6 d-lg-block d-none">
@@ -54,18 +56,16 @@
                     <img class="sacola"
                         src="./isabeli/Images/sacola.png">
                 </a>
-                <form class="form-pesquisa col-lg-6 d-lg-none d-block">
-                    <div class="container">
-                        <div class="row">
-                            <div class="pesquisa-btn mx-0 col-11">
-                                <input type="text" class="pesquisa">
-                            </div>
-                            <div class="pesquisa-btn mx-0 col-1">
-                                <button class="button-submit" type="submit">
-                                    <img class="lupa"
-                                        src="./isabeli/Images/lupa.png">
-                                </button>
-                            </div>
+                <form class="container form-pesquisa col-10 d-lg-none d-block">
+                    <div class="row">
+                        <div class="pesquisa-btn mx-0 col-11">
+                            <input type="text" class="pesquisa" placeholder="O que deseja colecionar?">
+                        </div>
+                        <div class="pesquisa-btn mx-0 col-1">
+                            <button class="button-submit" type="submit">
+                                <img class="lupa"
+                                    src="./isabeli/Images/lupa.png">
+                            </button>
                         </div>
                     </div>
                 </form>
@@ -77,7 +77,7 @@
                             <li><a href="./index.html">Home</a></li>
                             <li><a href="./categorias.html">Catálogo</a></li>
                             <li><a href="#">Promoções</a></li>
-                            <li><a href="#">Contato</a></li>
+                            <li><a href="./contato.html">Contato</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -100,14 +100,14 @@
     
             <div class="col-md-5 col-12 custom-section-item py-md-5 dois">
 
-                <button class="px-4"> Quarto</button>
+                <a href="./catalogo.html"><button class="px-4">Quarto</button></a>
                 <h6>Encontre armários, penteadeiras <br>e objetos para decorar seu quarto.</h6>
                 
             </div>
     
             <div class="col-md-5 col-12 custom-section-item tres">
 
-                <button >Cozinha</button>
+                <a href="./catalogo.html"><button >Cozinha</button></a>
                 <h6>Louças, mesas, armários <br> e muito mais para sua cozinha.</h6>
                 
             </div>
@@ -126,14 +126,14 @@
     
             <div class="col-md-5 col-12 custom-section-item seis ">
 
-                <button class="px-5">Sala</button>
+                <a href="./catalogo.html"><button class="px-5">Sala</button></a>
                 <h6>Aparadores, sofás, objetos decorativos<br> para valorizar sua sala.</h6>  
 
             </div>
     
             <div class="col-md-5 col-12 custom-section-item sete">
 
-                <button>Diversos</button>
+                <a href="./catalogo.html"><button>Diversos</button></a>
                 <h6>Tudo de mais diferente<br> e único está aqui.</h6>
       
             </div>
@@ -152,57 +152,55 @@
 
     <!-- INÍCIO FOOTER -->
     <footer>
-
-        <div class="container-fluid">
-            <div class="row justify-content-between first-footer px-0">
+        <div class="container-fluid ">
+            <div class="row justify-content-between first-footer  px-0">
                 <div class="col-5 col-xs-6 col-sm-2 col-md-3 contato px-2">
                     <h3>
                         contato
                     </h3>
                     <ul>
-                        <li><a href="">Dúvidas</a></li>
-                        <li><a href="">Informações</a></li>
-                        <li><a href="">Sugestões</a></li>
+                        <li><a href="./contato.html">Dúvidas</a></li>
+                        <li><a href="./contato.html">Informações</a></li>
+                        <li><a href="./contato.html">Sugestões</a></li>
                     </ul>
                 </div>
                 <div class=" col-7 col-xs-6 col-sm-6 col-md-3 produtos px-2">
                     <h3>
                         produtos
-                    </h3>        
+                    </h3>
                     <ul>
-                        <li><a href="">Comprar</a></li>
-                        <li><a href="">Vender</a</li>
+                        <li><a href="./categorias.html">Comprar</a></li>
+                        <li><a href="./contato.html">Vender</a></li>
                         <li><a href="">Promoções</a></li>
-                    </ul>           
+                    </ul>
                 </div>
                 <div class=" col-5 col-xs-6 col-sm-6 col-md-3 sobre px-2">
                     <h3>
                         sobre
-                    </h3>      
+                    </h3>
                     <ul>
-                        <li><a href="">Visão</a></li>
-                        <li><a href="">Missão</a></li>
-                        <li><a href="">História</a></li>
-                    </ul>             
+                        <li><a href="./sobre.html">Visão</a></li>
+                        <li><a href="./sobre.html">Missão</a></li>
+                        <li><a href="./sobre.html">História</a></li>
+                    </ul>
                 </div>
                 <div class="col-7 col-xs-6 col-sm-6 col-md-3 redes px-2">
                     <h3>
                         redes sociais
-                    </h3>              
+                    </h3>
                     <ul>
                         <li class="instagram"><a href="">Instagram</a></li>
                         <li class="facebook"><a href="">Facebook</a></li>
-                        <li  class="pinterest"><a href="">Pinterest</a></li>
-                    </ul>    
+                        <li class="pinterest"><a href="">Pinterest</a></li>
+                    </ul>
                 </div>
 
                 <div class="col-md-12 last-footer px-0">
                     criado por GRUPO 5 RD
                 </div>
-              
+
             </div>
         </div>
-
     </footer>
     <!-- FINAL CATEGORIAS -->
 
