@@ -29,16 +29,48 @@
     font-family: 'Baskervville', serif;
     font-size: 18px;
 }
-.login {
+
+.perfil-link {
+    padding: 0;
     font-family: 'Baskervville', serif; 
-    font-size: 18px;
+    font-size: 16px;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.perfil-link a {
+    display: flex;
+}
+
+.perfil-link b {
+    margin-right: 5px;
+    font-weight: normal;
+}
+
+.perfil-link a::after {
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-image: url(../../natalia/imgs/user.png);
+    align-self: center;
+    margin-right: -20px;
+}
+
+.login {
+    padding: 0;
+    font-family: 'Baskervville', serif; 
+    font-size: 16px;
     align-self: flex-end;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-.login a {
+.login a, .perfil-link a {
     color: black;
     text-decoration: none;
     padding: 5px;
@@ -147,6 +179,12 @@
 @media (max-width:800px) {
     #menu ul li a {
         padding: 10px 80px;
+    }
+}
+
+@media (max-width: 750px) {
+    .perfil-link a::after {
+        display: none;
     }
 }
 
