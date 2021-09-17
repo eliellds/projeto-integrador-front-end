@@ -1,5 +1,5 @@
 .container-fluid-section{
-    background-color: #FFFFFF;
+    background-color: #F6F3EF;
 } 
 
 .h1-section {
@@ -12,14 +12,16 @@
 }
 
 .imagem-caixa-registradora {
+    display: flex;
+    justify-content: center;
     background-color: #F6F3EF;
+    margin: 0;
 }
 
 .Caixa-Registradora {
-    height: auto;
+    height: 100%;
     width: auto;
     border:  2px solid #BC4C2A;
-    margin-left: 80px;
 }
 
 .valor {
@@ -54,9 +56,8 @@
 
 .form-cep {
     display: flex;
-    align-content: flex-end;
+    align-items: flex-end;
     align-self: flex-end;
-    
 }
 
 .form-cep :focus {
@@ -73,25 +74,32 @@
     border-bottom: #BC4C2A solid 2px;
     justify-content: center;
     align-items: center;
+    align-self: flex-end;
 }
 .pesquisa-btn {
     display: flex;
     padding: 0;
     align-self: flex-end;
-
 }
 
 .btn-carrinho {
-    font-family: 'Baskervville', serif;
+    font-family: Baskervville;
     text-align: center;
-    background-color: #BC4C2A;
+    background-color: #3f79cf;
     padding: 10px;
     width: 100%;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: none;
     color: #fff;
+    border: none;
     border-radius: 5px;
     box-shadow: #00000036 0 2px 4px 2px;
+    transition: 0.3s;
+}
+.btn-carrinho:hover {
+    color: #fff;
+    background-color: #5a90e0;
+    box-shadow: #00000062 0 2px 4px 2px;
 }
 
 .container-fluid-informações {
@@ -109,7 +117,7 @@
 }
 
 .h1-informações-texto {
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Baskervville', serif;
     text-align: center;
     padding-top: 8px;
@@ -129,7 +137,7 @@
 }
 
 .h1-caracteristicas-texto {
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Baskervville', serif;
     text-align: center;
     padding-top: 8px;
@@ -147,15 +155,6 @@
     text-align: center;
     margin: 0;
     padding: 8px;  
-}
-
-.h1-pagamento {
-    color: #BC4C2A;
-    font-size: 28px;
-    font-family: 'Baskervville', serif;
-    text-align: center;
-    margin: 0;
-    padding: 8px; 
 }
 
 .h1-pagamento-texto {

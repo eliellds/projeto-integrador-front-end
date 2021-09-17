@@ -98,7 +98,7 @@
     <div class="container mt-2">
 
         <div class="row justify-content-center mb-3 p-0 mx-0">
-            <h1 class="categoria_nome mb-2 col-12">Cozinha</h1> <!-- nome da categoria -->
+            <h1 class="categoria_nome mb-2 col-12">10% Desconto</h1> <!-- nome da categoria -->
             <div class="col-9 linha-divisoria "></div>
         </div>
 
@@ -221,14 +221,46 @@
 
     </div>
 
-    <div class="container container-cards">
+    <div class="container mt-2">
 
-        <ul class="row lista-cards catalogo tamanho mb-5">
+        <div class="row justify-content-center mb-3 p-0 mx-0">
+            <h1 class="categoria_nome mb-2 col-12">Frete Grátis</h1> <!-- nome da categoria -->
+            <div class="col-9 linha-divisoria "></div>
+        </div>
 
-            <li class="col-12 col-sm-8 col-md-5 col-lg-2 mb-4">
+        <form action="" class="row justify-content-md-end justify-content-center mb-3">
+            <label for="filtro" class="col-md-2 p-0 m-0  col-8">Ordenar por: </label>
+            <select name="filtro" class="col-md-2 col-8" id="filtro">
+                <option value="default">Selecione o filtro</option>
+                <option value="maior-preco">Maior Valor</option>
+                <option value="menor-preco">Menor Valor</option>
+                <option value="Ofertas">Maior desconto</option>
+
+
+            </select>
+        </form>
+
+    </div>
+
+
+
+
+
+
+    <!-- Inicio lista cards produtos catalogo-->
+    <div class="container container-cards my-4">
+
+        <ul class="row lista-cards catalogo tamanho  mb-5">
+
+            <!-- Inicio card protudo -->
+            <li class="col-11 col-sm-8 col-md-5 col-lg-2 mb-4">
+
+                <!-- Imagem card -->
                 <div class="caixa-imagem">
                     <a href="./produto.html" class="imagem-produto card-1"></a>
                 </div>
+
+                <!-- Corpo card -->
                 <div class="corpo-card">
                     <a href="./produto.html" class="descricao">Jogo de chá<br />(1889)</a>
                     <div class="pagamento">
@@ -236,10 +268,16 @@
                             <div class="preco-de">R$999,59</div>
                             <div class="preco-por">R$ 850,59</div>
                         </div>
+
+                        <!-- Botao comprar -->
                         <a href="./produto.html" class="btn-comprar">COMPRAR</a>
+
                     </div>
+
                 </div>
+
             </li>
+            <!-- Fim card produto -->
 
             <li class="col-12 col-sm-8 col-md-5 col-lg-2 mb-4">
                 <div class="caixa-imagem">
