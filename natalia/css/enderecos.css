@@ -29,15 +29,6 @@ h1, h2 {
     background-color:  #BC4C2A;
 }
 
-.recuperar {
-    color: #252525;
-}
-
-.recuperar:hover{
-    color: #252525;
-    font-weight: bold;
-}
-
 .custom-container {
     background-color: #F6F3EF;
 }
@@ -87,25 +78,7 @@ h1, h2 {
     box-shadow: #00000062 0 2px 4px 2px;
 }
 
-.btn-retorno {
-    font-family: Baskervville;
-    text-align: center;
-    background-color: #a3a3a3;
-    padding: 10px;
-    width: 150px;
-    font-size: 20px;
-    text-decoration: none;
-    color: #fff;
-    border-radius: 5px;
-    box-shadow: #00000036 0 2px 4px 2px;
-    transition: 0.3s;
-}
 
-.btn-retorno:hover {
-    color: #fff;
-    background-color: #bebebe;
-    box-shadow: #00000062 0 2px 4px 2px;
-}
 
 @media (max-width: 420px) {
 
@@ -118,17 +91,10 @@ h1, h2 {
 
 @media (max-width: 450px) {
 
-    .btn-retorno {
-        padding: 8px;
-        width: 120px;
-        font-size: 16px;
-    }
-
     .btn-confirmacao {
         padding: 8px;
         width: 120px;
         font-size: 16px;
     }
     
-
 }
