@@ -75,6 +75,17 @@
     text-decoration: none;
     padding: 5px;
 }
+
+.login a::after{     
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-image: url(../natalia/imgs/login-icone.png);
+    align-self: center;
+}
+
 .sacola {
     height: 30px;
     width: auto;

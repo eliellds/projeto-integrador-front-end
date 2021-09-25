@@ -4,6 +4,8 @@
     width: auto;
     height: 180px;
     background-color: #ffffff;
+    border-top: 1px solid gray;
+    padding-top: 30px;
 }
 
 .first-footer ul {
