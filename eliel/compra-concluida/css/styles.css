@@ -43,6 +43,11 @@
     transition: 0.2s;
 }
 
+.container-principal h4 {
+    font-family: Baskervville;
+    font-weight: bold;
+}
+
 .atributos {
     font-family: Baskervville;
     margin-bottom: 5px;
