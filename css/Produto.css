@@ -33,9 +33,15 @@
 
 .formas-pagamento {
     font-family: 'Baskervville', serif;
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: none;
     color: black;
+}
+
+.formas-pagamento em {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .frete {
