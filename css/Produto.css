@@ -169,3 +169,17 @@
     text-align: center;
     padding-top: 8px;
 }
+
+.forms-block {
+    margin-bottom: 50px;
+}
+
+.form-input {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: solid 2px #BC4C2A;
+    color: #000;
+    height: 35px;
+    padding: 0 10px;
+}
