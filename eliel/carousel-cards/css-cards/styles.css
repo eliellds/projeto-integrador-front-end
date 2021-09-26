@@ -59,7 +59,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
-    height: 230px;
+    height: 270px;
 }
 
 .descricao {
@@ -97,6 +97,18 @@
 .preco-por {
     font-size: 24px;
     color: #BC4C2A;
+}
+
+.parcelas {
+    color: #00000096;
+    font-family: Baskervville;
+}
+
+.parcelas em {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .btn-comprar {
