@@ -13,13 +13,15 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Buenard:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
         <link href="./css/home.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/contato.css">
         <link rel="stylesheet" href="./css/footer.css">
         <link href="./css/cadastro.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/header.css">
-        
+
         <title>Contato - Velho Luxo</title>
     </head>
 
@@ -30,16 +32,13 @@
             <div class="row">
                 <div class="hamburguer d-block d-sm-none col-2 align-content-end">
                     <a href="#">
-                        <img class="menu-hamburguer"
-                            src="./isabeli/Images/Menu-de-Tres-Linhas.png">
+                        <img class="menu-hamburguer" src="./isabeli/Images/Menu-de-Tres-Linhas.png">
                     </a>
                 </div>
                 <div class="titulo col-lg-3 col-md-8 col-sm-7 col-4 justify-content-center">
                     <a href="./index.html" class="logo-marca" title="Velho Luxo">
-                    <img class="logo d-sm-block d-none" alt="Velho Luxo"
-                        src="./isabeli/Images/velho-luxo.png">
-                    <img class="logo-2 d-block d-sm-none" alt="Velho Luxo"
-                        src="./isabeli/Images/vl.png">
+                        <img class="logo d-sm-block d-none" alt="Velho Luxo" src="./isabeli/Images/velho-luxo.png">
+                        <img class="logo-2 d-block d-sm-none" alt="Velho Luxo" src="./isabeli/Images/vl.png">
                     </a>
                 </div>
                 <form action="./busca.html" class="form-pesquisa col-lg-6 d-lg-block d-none">
@@ -50,20 +49,18 @@
                             </div>
                             <div class="pesquisa-btn mx-0 col-1">
                                 <button class="button-submit" type="submit">
-                                    <img class="lupa"
-                                        src="./isabeli/Images/lupa.png">
+                                    <img class="lupa" src="./isabeli/Images/lupa.png">
                                 </button>
                             </div>
                         </div>
                     </div>
                 </form>
                 <div class="login col-2 col-sm-1"><a href="./login.html">Entrar</a></div>
-                
+
                 <div class="perfil-link col-2 col-lg-1"><a href="./perfil-usuario.html"><b>Perfil</b></a></div>
-                
+
                 <a href="./carrinho.html" class="button-sacola col-md-1 col-sm-2 col-2">
-                    <img class="sacola"
-                        src="./isabeli/Images/sacola.png">
+                    <img class="sacola" src="./isabeli/Images/sacola.png">
                 </a>
                 <form action="./busca.html" class="container form-pesquisa col-10 d-lg-none d-block">
                     <div class="row">
@@ -72,8 +69,7 @@
                         </div>
                         <div class="pesquisa-btn mx-0 col-1">
                             <button class="button-submit" type="submit">
-                                <img class="lupa"
-                                    src="./isabeli/Images/lupa.png">
+                                <img class="lupa" src="./isabeli/Images/lupa.png">
                             </button>
                         </div>
                     </div>
@@ -158,12 +154,37 @@
 
             <div class="row justify-content-center">
 
-                <a href="./index.html" class="btn-voltar mx-5 my-2">VOLTAR</a>
+                <a href="./login.html" class="btn-retorno mx-5">VOLTAR</a>
 
-                <input type="submit" class="btn-enviar mx-5 my-2" value="ENVIAR">
+                <button type="button" class="btn btn-enviar mx-5" data-bs-toggle="modal" data-bs-target="#enviar">
+                    ENVIAR
+                </button>
 
+                <!-- Modal -->
+                <div class="modal fade" id="enviar" tabindex="-1" aria-hidden="true">
+
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="enviar-modal">Mensagem Enviada!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Sua mensagem foi enviada.</p>
+                                <p>Responderemos o mais breve possível. O prazo máximo é de 24h para o retonno de nossa equipe.</p>
+
+                                <p>Obrigado!</p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-
 
         </form>
 
@@ -221,5 +242,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
 </body>

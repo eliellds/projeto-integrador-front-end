@@ -85,6 +85,12 @@ h1, h2 {
     box-shadow: #00000062 0 2px 4px 2px;
 }
 
+.modal-body p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 1rem;
+}
+
 @media (max-width: 420px) {
 
     .custom-form-box {
