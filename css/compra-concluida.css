@@ -81,8 +81,13 @@
     font-size: 18px;
 }
 
-.valor-total b, .texto-prazo b {
+.valor-total b, .texto-prazo b, .subtotal b, .frete b {
     font-family: 'Times New Roman', Times, serif;
+}
+
+.subtotal, .frete {
+    font-family: Baskervville;
+    font-size: 16px;
 }
 
 .voltar-inicio {
