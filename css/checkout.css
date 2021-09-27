@@ -40,3 +40,7 @@ h1, h2 {
 .cartao{
     cursor:default;
 }
+
+.retorno-carrinho {
+    width: auto !important;
+}
